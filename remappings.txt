@@ -1,0 +1,11 @@
+solmate/=lib/solmate/src/
+forge-std/=lib/forge-std/src/
+openzeppelin/=lib/openzeppelin-contracts/contracts/
+openzeppelin-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/
+erc721a/=lib/ERC721A/contracts/
+erc721a-upgradeable/=lib/ERC721A-Upgradeable/contracts/
+solidstate/=lib/solidstate-solidity/contracts/
+murky/=lib/murky/src/
+prb/test/=lib/prb-test/src/
+ds-test/=lib/ds-test/src/
+clones/=lib/clones-with-immutable-args/src/

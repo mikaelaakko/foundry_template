@@ -6,20 +6,6 @@ script = 'script'
 out = 'out'
 libs = ['lib']
 
-remappings = [
-  "solmate/=lib/solmate/src/",
-  "forge-std/=lib/forge-std/src/",
-  "openzeppelin/=lib/openzeppelin-contracts/contracts/",
-  "openzeppelin-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
-  "erc721a/=lib/ERC721A/contracts/",
-  "erc721a-upgradeable/=lib/ERC721A-Upgradeable/contracts/",
-  "solidstate/=lib/solidstate-solidity/contracts/",
-  "murky/=lib/murky/src/",
-  "prb/test/=lib/prb-test/src/",
-  "ds-test/=lib/ds-test/src/",
-  "clones/=lib/clones-with-immutable-args/src/"
-]
-
 bytecode_hash = "none"
 
 optimizer = true
@@ -32,7 +18,7 @@ gas_reports = ['*']
 gas_reports_ignore = []
 
 fuzz_runs = 256
-verbosity = 1
+verbosity = 2
 
 [rpc_endpoints]
 eth = "https://mainnet.infura.io/v3/${WEB3_INFURA_PROJECT_ID}"
