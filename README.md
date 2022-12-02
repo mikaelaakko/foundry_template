@@ -30,3 +30,19 @@ Run the tests:
 ```
 forge test
 ```
+
+Install specific dependencies:
+
+forge install openzeppelin/openzeppelin-contracts
+
+forge install transmissions11/solmate
+
+forge install solidstate-network/solidstate-solidity
+
+forge install openzeppelin/openzeppelin-contracts-upgradeable
+
+forge install chiru-labs/ERC721A
+
+forge install chiru-labs/ERC721A-Upgradeable
+
+forge install dmfxyz/murky

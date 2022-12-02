@@ -1,6 +1,41 @@
+## defaults for _all_ profiles
 [profile.default]
 src = 'src'
+test = 'test'
+script = 'script'
 out = 'out'
 libs = ['lib']
+remappings = [
+  "solmate/=lib/solmate/src/",
+  "forge-std/=lib/forge-std/src/"
+]
+bytecode_hash = "none"
 
-# See more config options https://github.com/foundry-rs/foundry/tree/master/config
+optimizer = true
+optimizer_runs = 10000
+
+auto_detect_solc = false
+solc = "0.8.17"
+
+gas_reports = ['*']
+gas_reports_ignore = []
+
+fuzz_runs = 256
+verbosity = 1
+
+[rpc_endpoints]
+eth = "https://mainnet.infura.io/v3/${WEB3_INFURA_PROJECT_ID}"
+goerli = "https://goerli.infura.io/v3/${WEB3_INFURA_PROJECT_ID}"
+polygon = "https://polygon-mainnet.infura.io/v3/${WEB3_INFURA_PROJECT_ID}"
+mumbai = "https://polygon-mumbai.infura.io/v3/${WEB3_INFURA_PROJECT_ID}"
+
+[etherscan]
+eth = {key = "${ETHERSCAN_KEY}", url = "https://api.etherscan.io/api"}
+goerli = {key = "${ETHERSCAN_KEY}", url = "https://api-goerli.etherscan.io/api"}
+polygon = {key = "${POLYGONSCAN_KEY}", url = "https://api.polygonscan.com/api"}
+mumbai = {key = "${POLYGONSCAN_KEY}", url = "https://api-testnet.polygonscan.com/api"}
+
+
+[profile.fuzz.hard]
+fuzz_runs = 10000
+verbosity = 4
