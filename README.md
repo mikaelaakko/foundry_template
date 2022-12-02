@@ -7,7 +7,7 @@ This is my take for a Foundry template and instructions to get started and help 
 Starting a new project:
 
 ```
-forge init --template https://github.com/foundry-rs/forge-template my_project_name
+forge init --template https://github.com/mikaelaakko/foundry_template my_project_name
 cd my_project_name
 ```
 
@@ -31,18 +31,24 @@ Run the tests:
 forge test
 ```
 
-Install specific dependencies:
+## Template libaries
 
-forge install openzeppelin/openzeppelin-contracts
+I always like to have all the libraries with me when I start a project so I'll have a bunch of libraries preinstalled in the template and then remove the unneccessary ones later. Some awesome libraries that this template contains:
 
-forge install transmissions11/solmate
+openzeppelin
 
-forge install solidstate-network/solidstate-solidity
+solmate
 
-forge install openzeppelin/openzeppelin-contracts-upgradeable
+solidstate-solidity
 
-forge install chiru-labs/ERC721A
+openzeppelin-contracts-upgradeable
 
-forge install chiru-labs/ERC721A-Upgradeable
+ERC721A
 
-forge install dmfxyz/murky
+ERC721A-Upgradeable
+
+murky
+
+prb-test
+
+ds-test
