@@ -35,22 +35,22 @@ forge test
 
 I always like to have all the libraries with me when I start a project so I'll have a bunch of libraries preinstalled in the template and then remove the unneccessary ones later. Some awesome libraries that this template contains:
 
-openzeppelin
+**openzeppelin**
 
-solmate
+**solmate**
 
-solidstate-solidity
+**solidstate-solidity**
 
-openzeppelin-contracts-upgradeable
+**openzeppelin-contracts-upgradeable**
 
-ERC721A
+**ERC721A**
 
-ERC721A-Upgradeable
+**ERC721A-Upgradeable**
 
-murky
+**murky**
 
-prb-test
+**prb-test**
 
-ds-test
+**ds-test**
 
-clones-with-immutable args
+**clones-with-immutable args**
